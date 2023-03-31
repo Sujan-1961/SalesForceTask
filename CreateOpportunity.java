@@ -26,7 +26,7 @@ public class CreateOpportunity {
 					js.executeScript("arguments[0].click();", ele);
 					
 					driver.findElement(By.xpath("//a[@class='forceActionLink']")).click();
-					driver.findElement(By.xpath("(//input[@class='slds-input'])[4]")).sendKeys("sujan");
+					driver.findElement(By.xpath("(//input[@class='slds-input'])[4]")).sendKeys("Sales Automation by Sujan");
 					Thread.sleep(2000);
 					driver.findElement(By.xpath("(//input[@class='slds-input'])[3]")).click();
 					driver.findElement(By.xpath("//span[text()='31']")).click();
